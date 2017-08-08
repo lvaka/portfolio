@@ -7,10 +7,37 @@ h1 {
 	font-family: Helvetica, Sans-serif;
 }
 
-p {
+p,a {
 	color: #e2e2e2;
 	font-family: Helvetica, Sans-serif;
 	font-size: 14pt;
+}
+
+a {
+	text-decoration: none;
+	background-color: DimGray;
+}
+
+a:link{
+	color: white;
+}
+
+a:visited{
+	color: white;
+}
+
+a:hover{
+	background-color: white;
+	color: Black;
+}
+
+a:active{
+	color: Red;
+}
+
+nav{
+	margin-left: 70px;
+	margin-right: 70px;
 }
 
 #wrapper, img{
