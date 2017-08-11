@@ -1,4 +1,5 @@
 /*Class Styles*/
+/*
 .home{
 	background-image: url("image_assets/BatandHarley.jpg");
 	background-color: Gray;
@@ -6,7 +7,7 @@
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
-
+*/
 .food{
 	background-image: url("image_assets/foodphotographybg.jpg");
 	background-color: Gray;
@@ -29,6 +30,11 @@
 	margin-bottom: 10px;
 }
 
+div.window{
+	width: 85%;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
 
 /*Anchor Styles*/
 a:link {
@@ -102,7 +108,7 @@ hr{
 }
 
 table{
-	width: 85%;
+	width: 100%;
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-bottom: 80px;
@@ -110,4 +116,8 @@ table{
 
 td{
 	padding: 10px;
+}
+
+iframe{
+	border: 0;
 }
