@@ -127,22 +127,34 @@ div.gallery img {
     height: auto;
 }
 
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
 
-/*
-
-table{
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
 	width: 100%;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-bottom: 80px;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
 }
 
-
-td{
+.lightbox img {
+	/** Pad the lightbox image */
 	display: block;
-	padding: 10px;
-}*/
+	margin: auto;
+	max-width: 80%;
+	max-height: auto;
+	margin-top: 4%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
