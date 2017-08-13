@@ -1,13 +1,13 @@
 /*Class Styles*/
-/*
-.home{
-	background-image: url("image_assets/BatandHarley.jpg");
-	background-color: Gray;
-	background-size: 100% 100%;
+
+.title_card{
+	/*background-image: url("image_assets/BatandHarley.jpg");*/
+	background-color: rgba(255,255,255, 0.2);
+	width: 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
-*/
+
 .food{
 	background-image: url("image_assets/foodphotographybg.jpg");
 	background-color: Gray;
@@ -16,11 +16,12 @@
 	background-repeat: no-repeat;
 }
 
-.mainly{
+#navbar{
+	width: 100%
 	font-weight: Bold;
 	font-size: 18pt;
 	color: White;
-	text-shadow: 0px 0px 2px black;
+	text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
 }
 
 .insidebox{
@@ -127,6 +128,7 @@ div.gallery img {
     height: auto;
 }
 
+/*Light Box Code*/
 .lightbox {
 	/** Default lightbox to hidden */
 	display: none;
