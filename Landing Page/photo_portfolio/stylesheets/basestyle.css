@@ -1,14 +1,13 @@
 /*Class Styles*/
 
-.title_card{
-	/*background-image: url("image_assets/BatandHarley.jpg");*/
+#title_card{
 	background-color: rgba(255,255,255, 0.2);
 	width: 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
 
-.food{
+#bkg{
 	background-image: url("image_assets/foodphotographybg.jpg");
 	background-color: Gray;
 	background-size: 100% 100%;
