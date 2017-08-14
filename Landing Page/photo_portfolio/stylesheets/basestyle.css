@@ -23,17 +23,20 @@
 	text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
 }
 
+/*
+Padding inside Text Box
+*/
 .insidebox{
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	padding: 20px;
+	margin: 20px 10px;
 }
 
+/*Window that data loads into*/
 div.window{
+	height: 90%;
 	width: 85%;
+	margin-left: 50px;
 	margin-right: 50px;
-	margin-bottom: 50px;
 }
 
 /*Anchor Styles*/
@@ -54,8 +57,36 @@ a:active {
 }
 
 a{
+	font-family: Courier;
+	font-size: 20px;
+	color: Black;
+	font-weight: bold;
 	background-color: White;
 }
+
+a.contact{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 20px;
+	color: Black;
+	font-weight: bold;
+}
+
+a:link.contact {
+    color: Black;
+}
+
+a:visited.contact {
+	color: Black;
+}
+
+a:hover.contact {
+	color: Red;
+}
+
+a:active.contact {
+	color: Red;
+}
+
 
 /*Elements and Text Styles*/
 h1, h4{
@@ -68,6 +99,7 @@ h1, h4{
 
 body{
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 nav{
@@ -76,27 +108,27 @@ nav{
 	text-align: left;
 }
 
-section{
-	margin-left: 50px;
-	margin-right: 50px;
-}
-
 article{
-	background-color: White;
-	border: Black;
+	background-color: rgba(255, 255, 255, 0.95);
 }
 
-a,p{
-	font-family: Courier;
-	font-size: 14pt;
-	color: Black;
-	font-weight: bold;
-}
 
-p{
+p.insidebox{
+	font-size: 26px;
 	text-align:left;
+	font-weight: 100;
+	font-family: Helvetica, Sans-Serif;
+	line-height: 1.4em;
+	letter-spacing: 0.03em;
 }
 
+section{
+	padding: 20 px;
+}
+
+
+
+/*
 hr{
 	margin-left: 10px;
 	border: none;
@@ -106,6 +138,8 @@ hr{
 	width: 85%;
 	text-align: left;
 }
+*/
+
 /*
 Image Gallery DIV Code
 */

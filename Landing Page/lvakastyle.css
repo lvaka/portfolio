@@ -1,7 +1,102 @@
+
 body {
 	background-color: black;
+	margin: 0;
+	padding: 20px;
 }
 
+#logo, img{
+	postion: absolute;
+	left: 20px;
+	height: 70px;
+	width: auto;
+	margin: 0;
+	z-index: -1;
+}
+#heading{
+	display: inline;
+	height: 70px;
+	width: 100%;
+	}
+
+#navigation{
+	min-width: 700px;
+	text-align: left;
+	top: 70px;
+	left: 155px;
+	position: absolute;
+	margin: 0px;
+	float: right;
+	color: #e2e2e2;
+	font-family: Helvetica, Sans-serif;
+	font-size: 40px;
+	z-index: 1;
+}
+
+#navigation, a {
+	text-decoration: none;
+	color: #e2e2e2;
+}
+
+#navigation, a:link{
+	color: #e2e2e2;
+}
+
+#navigation, a:visited{
+	color: #e2e2e2;
+}
+
+#navigation, a:hover{
+	color: DimGray;
+}
+
+#navigation, a:active{
+	color: Red;
+}
+
+#content {
+	padding: 30px 20px;
+}
+
+/*Window that data loads into*/
+div.window{
+	height: 90%;
+	width: 85%;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.page{
+	background-color: #e2e2e2;
+	padding: 15px;
+	height: 100%;
+	min-height: 500px;
+}
+
+.post{
+	padding: 10px;
+	text-align: left;
+	margin: 20px 10px;
+	background-color: rgb(200,200,200);
+	color: rgb(40, 40, 40);
+	font-family: Helvetica, Sans-serif;
+}
+
+p.post{
+	font-size: 17px;	
+}
+
+h1.post{
+	font-style: normal;
+	font-weight: 100;
+}
+
+h2.post, h2{
+	font-style: italic;
+	letter-spacing: 0.1em;
+	font-size: 16px;
+}
+/*
 h1 {
 	color: #e2e2e2;
 	font-family: Helvetica, Sans-serif;
@@ -46,3 +141,4 @@ nav{
 	width: 75%;
 	height: 75%;
 }
+*/
