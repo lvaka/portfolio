@@ -81,6 +81,25 @@ div.window{
 	color: rgb(40, 40, 40);
 	font-family: Helvetica, Sans-serif;
 }
+a.post{
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	text-decoration: underline;
+	color: rgb(40, 40, 40);
+}
+
+a:visited.post{
+	color: rgb(40, 40, 40);
+}
+
+a:hover.post{
+	color: white;
+}
+
+a:active.post{
+	color: red;
+}
 
 p.post{
 	font-size: 17px;	
@@ -95,6 +114,11 @@ h2.post, h2{
 	font-style: italic;
 	letter-spacing: 0.1em;
 	font-size: 16px;
+}
+h4.post{
+	font-weight: 100;
+	letter-spacing: 0.1em;
+	font-size: 10px;
 }
 /*
 h1 {
