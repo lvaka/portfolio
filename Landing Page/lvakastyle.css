@@ -1,26 +1,27 @@
-
+*{
+	box-sizing: border-box;
+}
 body {
 	background-color: black;
 	margin: 0;
 	padding: 20px;
 }
 
-#logo, img{
-	postion: absolute;
+#logo {
+	position: absolute;
 	left: 20px;
 	height: 70px;
 	width: auto;
 	margin: 0;
-	z-index: -1;
 }
 #heading{
 	display: inline;
 	height: 70px;
 	width: 100%;
-	}
+	overflow: hidden;
+}
 
 #navigation{
-	min-width: 700px;
 	text-align: left;
 	top: 70px;
 	left: 155px;
@@ -30,6 +31,7 @@ body {
 	color: #e2e2e2;
 	font-family: Helvetica, Sans-serif;
 	font-size: 40px;
+	text-shadow: 0 2px 2px black;
 	z-index: 1;
 }
 
@@ -55,7 +57,13 @@ body {
 }
 
 #content {
+	margin-top: 80px;
 	padding: 30px 20px;
+}
+
+div.box{
+	box-sizing: border-box;
+	float: left;
 }
 
 /*Window that data loads into*/
@@ -110,59 +118,13 @@ h1.post{
 	font-weight: 100;
 }
 
-h2.post, h2{
+h2.post{
 	font-style: italic;
 	letter-spacing: 0.1em;
 	font-size: 16px;
 }
-h4.post{
+p.projects{
 	font-weight: 100;
 	letter-spacing: 0.1em;
-	font-size: 10px;
+	font-size: 16px;
 }
-/*
-h1 {
-	color: #e2e2e2;
-	font-family: Helvetica, Sans-serif;
-}
-
-p,a {
-	color: #e2e2e2;
-	font-family: Helvetica, Sans-serif;
-	font-size: 14pt;
-}
-
-a {
-	text-decoration: none;
-	background-color: DimGray;
-}
-
-a:link{
-	color: white;
-}
-
-a:visited{
-	color: white;
-}
-
-a:hover{
-	background-color: white;
-	color: Black;
-}
-
-a:active{
-	color: Red;
-}
-
-nav{
-	margin-left: 70px;
-	margin-right: 70px;
-}
-
-#wrapper, img{
-	margin:auto;
-	margin-top:20px;
-	width: 75%;
-	height: 75%;
-}
-*/
