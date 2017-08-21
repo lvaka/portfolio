@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 }
 body {
+	min-width: 850px;
 	background-color: black;
 	margin: 0;
 	padding: 20px;
@@ -13,19 +14,21 @@ body {
 	height: 70px;
 	width: auto;
 	margin: 0;
+	background-color: white;
 }
 #heading{
 	display: inline;
 	height: 70px;
 	width: 100%;
-	overflow: hidden;
 }
 
 #navigation{
+	height: 50px;
 	text-align: left;
-	top: 70px;
-	left: 155px;
 	position: absolute;
+	bottom: 0;
+	top: 40px;
+	left: 155px;
 	margin: 0px;
 	float: right;
 	color: #e2e2e2;
@@ -35,35 +38,30 @@ body {
 	z-index: 1;
 }
 
-#navigation, a {
+#navigation a {
 	text-decoration: none;
 	color: #e2e2e2;
 }
 
-#navigation, a:link{
+#navigation a:link{
 	color: #e2e2e2;
 }
 
-#navigation, a:visited{
+#navigation a:visited{
 	color: #e2e2e2;
 }
 
-#navigation, a:hover{
+#navigation a:hover{
 	color: DimGray;
 }
 
-#navigation, a:active{
+#navigation a:active{
 	color: Red;
 }
 
 #content {
 	margin-top: 80px;
 	padding: 30px 20px;
-}
-
-div.box{
-	box-sizing: border-box;
-	float: left;
 }
 
 /*Window that data loads into*/
@@ -127,4 +125,18 @@ p.projects{
 	font-weight: 100;
 	letter-spacing: 0.1em;
 	font-size: 16px;
+}
+
+@media only screen and (min-width=800px){
+	#logo {
+	position: absolute;
+	left: 20px;
+	height: 70px;
+	width: auto;
+	margin: 0;
+	}
+	#heading{
+	height: 70px;
+	width: 100%;
+	}
 }
