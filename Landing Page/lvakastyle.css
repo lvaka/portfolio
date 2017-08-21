@@ -88,8 +88,19 @@ div.window{
 	background-color: rgb(200,200,200);
 	color: rgb(40, 40, 40);
 	font-family: Helvetica, Sans-serif;
+	box-shadow: 3px 3px 10px Black;
 }
-a.post{
+
+.postLink{
+	padding: 10px;
+	text-align: left;
+	margin: 20px 10px;
+	background-color: rgb(200,200,200);
+	color: rgb(40, 40, 40);
+	font-family: Helvetica, Sans-serif;
+}
+
+a.postLink{
 	padding: 0;
 	margin: 0;
 	text-align: left;
@@ -97,17 +108,18 @@ a.post{
 	color: rgb(40, 40, 40);
 }
 
-a:visited.post{
+a:visited.postLink{
 	color: rgb(40, 40, 40);
 }
 
-a:hover.post{
+a:hover.postLink{
 	color: white;
 }
 
-a:active.post{
+a:active.postLink{
 	color: red;
 }
+
 
 p.post{
 	font-size: 17px;	

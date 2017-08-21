@@ -1,3 +1,3 @@
 $(function() {
-$("#Main").load("Main.html"); 
+	$("#Main").load("Main.html"); 
 }); 
