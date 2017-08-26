@@ -1,42 +1,48 @@
 *{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	vertical-align: baseline;
+	padding: 0;
+	margin: 0;
+	outline: 0;
 	box-sizing: border-box;
 }
 
 body {
-	min-width: 850px;
+	min-width: 870px;
+	max-width: 1500px;
 	background-color: black;
-	margin: 0;
+	margin: 0 auto;
 	padding: 20px;
 }
 
+#Heading{
+	width: 85%;
+	min-width: 870px;
+	max-width: 1500px;
+	padding: 0;
+	margin-top: 30px;
+	height: 70px;
+	z-index: -1;
+}
+
 #logo {
-	position: absolute;
-	left: 20px;
 	height: 70px;
 	width: auto;
 	margin: 0;
-	background-color: white;
-}
-#heading{
-	display: inline;
-	height: 70px;
-	width: 100%;
+	padding: 0;
+	float: left;
 }
 
 #navigation{
 	height: 50px;
 	text-align: left;
-	position: absolute;
-	bottom: 0;
-	top: 40px;
-	left: 155px;
-	margin: 0px;
-	float: right;
+	padding:0;
+	padding-top: 30px;
 	color: #e2e2e2;
 	font-family: Helvetica, Sans-serif;
 	font-size: 40px;
 	text-shadow: 0 2px 2px black;
-	z-index: 1;
 }
 
 #navigation a {
@@ -61,7 +67,7 @@ body {
 }
 
 #content {
-	margin-top: 80px;
+	margin-top: 20px;
 	padding: 30px 20px;
 }
 
@@ -119,9 +125,13 @@ a:active.postLink{
 	color: red;
 }
 
+p{
+	margin: 20px;
+	line-height: 1.4em;
+}
 
 p.post{
-	font-size: 17px;	
+	font-size: 18px;	
 }
 
 h1.post{
@@ -138,18 +148,4 @@ p.projects{
 	font-weight: 100;
 	letter-spacing: 0.1em;
 	font-size: 16px;
-}
-
-@media only screen and (min-width=800px){
-	#logo {
-	position: absolute;
-	left: 20px;
-	height: 70px;
-	width: auto;
-	margin: 0;
-	}
-	#heading{
-	height: 70px;
-	width: 100%;
-	}
 }
